@@ -6,8 +6,8 @@ from flask import Flask, request
 
 app = Flask(__name__)
 
-FB_ACCESS_TOKEN = 'EAAJAZAqHMng4BAF7bc0wj8oOzEP7SyJuplSEPYVtZBk1t37vUBsLWCskzq8ITXQxMOZANV0HZBoHHplfq4DZAoqeDVUWWw9LcTPkANAy4R0oYx0zkU78NdZAd6bgXrqlIptFOCqL2ZBDcY0F70vQHzgEDuQgmGkw28ZCtHrPUyVu3xVPtPPvL3JW'
-FB_VERIFY_TOKEN = 'SONIA'
+FB_ACCESS_TOKEN = 'EAAItsfpuIEkBAIZBoW8bqJnRU89GxgViqnoOTA2tANKItTxsNkx4foFcZAdlZB4rKY6A1jNbwM3WWE15emaTvZA9gtXcpAkagyghhvOZCdTSiivfF4ZCPqx0lfffg501WbPGMSFMrAuJ0wZBFmH3d3Tho9JPxQRC93OFMSwDlii39ELAVIQLUwY'
+FB_VERIFY_TOKEN = 'Bruno'
 FB_API_URL = f"https://graph.facebook.com/v10.0/me/messages?access_token={FB_ACCESS_TOKEN}"
 
 @app.route('/', methods=['GET'])
